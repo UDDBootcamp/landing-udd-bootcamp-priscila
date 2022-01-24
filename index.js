@@ -101,10 +101,10 @@ document.querySelector(".prev-slide").addEventListener("click", function ()
     }
 )
 
-document.querySelector(".icon-title").addEventListener("mouseover", function () {
+/*document.querySelector(".icon-title").addEventListener("mouseover", function () {
     let hero = document.querySelector("#hero")
     hero.style.backgroundColor = "pink"
-})
+})*/
 
 
 
