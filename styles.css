@@ -175,9 +175,6 @@ h2 {
 
 
 /*fin de definir los carruseles*/
-
-
-
 .column-text p {
     font-weight: 500;
     font-size: large;
@@ -201,7 +198,7 @@ h2 {
 
 @media (max-width: 650px){
     body {
-        background-color: rgb(6, 102, 175);
+        background-color: rgb(214, 138, 88);
     }
 
     .container {
@@ -255,5 +252,23 @@ form {
   button {
     /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
        entre las etiquetas y sus campos de texto */
-    margin-left: .5em;
+    /*margin-left: .5em;*/
   }
+
+
+  /*aca voy a colocar algo para generar letras con colores */
+
+  #cambiocolor {  
+    width: 180px;  
+    height: 40px;  
+    background-color: beige;  
+    color: grey;  
+    text-align: center;  
+    font-size: 200%;  
+    }  
+
+    button2{  
+        width:180px;  
+        height:40px;  
+        
+    } 
