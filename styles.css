@@ -15,6 +15,11 @@ h2 {
 
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    size: 2;
+    color: rgb(4, 0, 14);
+}
 
 .nav-header {
     display: flex;
@@ -46,9 +51,10 @@ h2 {
 }
 
 #hero {
-    display: grid;
+    display:flow-root;
     justify-content: center;
     background-color: rgb(207, 138, 184);
+    border-radius: 0.5em;
 }
 
 #listaprueba {
@@ -98,7 +104,7 @@ h2 {
 .card-header__img {
     width: 100%;
     object-fit: cover;
-    height: 12rem;
+    height: 15.5rem;
     border-radius: 0.5rem 0.5rem 0 0;
 }
 
@@ -275,11 +281,11 @@ form {
     padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
   }
   
-  button {
-    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+  /*button {
+     Este margen adicional representa aproximadamente el mismo espacio que el espacio
        entre las etiquetas y sus campos de texto */
-    /*margin-left: .5em;*/
-  }
+    /*margin-left: .5em;
+  }*/
 
 
   /*aca voy a colocar algo para generar letras con colores */
