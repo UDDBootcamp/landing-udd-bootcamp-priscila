@@ -2,7 +2,7 @@ let variable = "soy una variable"
 const constante = 3.1416
 let bool = true
 
-let persona = {
+/*let persona = {
     nombre: 'Priscila Gonzalez',
     edad: 48,
     mayorDeEdad: true
@@ -25,7 +25,7 @@ if (persona.edad >= 18){
 
 
 //ciclo for
-let lista = ['fresa', 'sandia', 'naranja', 'melon'];
+/*let lista = ['fresa', 'sandia', 'naranja', 'melon'];
 
 for (let index = 0; index < lista.length; index++){
     const element = lista[index];
@@ -56,16 +56,16 @@ function saludo(nombre){
 
 //let elemento = document.querySelector('.container')
 
-//console.log(elemento);
+//console.log(elemento);*/
 
 //aca se viene el carrusel
 const delay = 3000
 
 const slides = document.querySelector('.slides');
-//console.log('slides', slides);
+console.log('slides', slides);
 
 const slidesCount = slides.childElementCount;
-//console.log ('slidesCount', slidesCount);
+console.log ('slidesCount', slidesCount);
 
 const maxLeft = (slidesCount - 1) * 100 * -1
 
